@@ -126,6 +126,6 @@ public class RussianRoll {
     }
     public static void main(String[] args) {
 		RussianRoll roll=new RussianRoll();
-		System.out.println(roll.maxEnvelopes(new int[][]{{2,100},{3,200},{4,300},{5,500},{5,400},{5,250},{6,370},{6,360},{7,380}}));
+		System.out.println(roll.maxEnvelopes(new int[][]{{3,2},{8,7},{6,9},{3,4},{7,8}}));
 	}
 }
