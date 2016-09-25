@@ -1,5 +1,8 @@
 package LeetCode;
-
+/*
+ * Given a positive integer n, break it into the sum of at least two positive integers and 
+ * maximize the product of those integers. Return the maximum product you can get.
+ */
 public class IntegerBreak {
 	public int integerBreak(int n) {
 	    int[] dp = new int[n+1];
