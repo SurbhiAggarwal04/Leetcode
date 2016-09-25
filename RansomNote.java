@@ -1,5 +1,9 @@
 package LeetCode;
-
+/*
+ * canConstruct("a", "b") -> false
+canConstruct("aa", "ab") -> false
+canConstruct("aa", "aab") -> true
+ */
 public class RansomNote {
 	   public static boolean canConstruct(String ransomNote, String magazine) {
 	        System.out.println(ransomNote+" "+magazine);
